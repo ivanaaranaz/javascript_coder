@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+html {
+  font-size: 62.5%; }
+
+body {
+  overflow-x: hidden; }
+
+#animacion {
+  animation-name: un_efecto;
+  animation-iteration-count: initial;
+  animation-timing-function: ease-in;
+  animation-duration: 1s;
+  animation-delay: 1s; }
+
+
+.top-header {
+  background-color: #333333; }
+
+.nav__personalizada {
+  background-color: #dddbe2; }
+
+#background1 {
+  background-color: rgba(41, 39, 34, 0.599);
+  color: #dddbe2; }
+
+#background2 {
+  background-color: #333333;
+  color: #dddbe2; }
+
+#background3 {
+  background-color: #ffffff;
+  color: #333333; }
+
+#cardindex {
+  text-align: center;
+  height: 37rem; }
+
+#cardindex2 {
+  text-align: center;
+  height: 10rem; }
+
+#link {
+  font-size: 2.5rem;
+  color: white; }
+
+a:any-link {
+  color: white; }
+
+* {
+  font-family: 'Montserrat', sans-serif; }
+
+.text-justify {
+  text-align: justify; }
+
+.text-center {
+  text-align: center; }
+
+.nav-link {
+  font-size: 1.5rem;
+  font-weight: bolder; }
+
+.titulo_index {
+  font-size: 2rem;
+  color: #dddbe2;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bolder; }
+
+.titulo_index2 {
+  font-size: 1.7rem; }
+
+.titulo_cardinfo1 {
+  color: #00d0ff; }
+
+.titulo_cardinfo2 {
+  color: #06afd4; }
+
+.titulo_cardinfo3 {
+  color: #067e99; }
+
+.titulo_cardinfo4 {
+  color: #056f86; }
+
+.titulo_cardinfo5 {
+  color: #03596d; }
+
+#bvideo {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1; }
+
+#carrusel {
+  width: 48rem;
+  margin: 0rem; }
+
+.cardtext1 {
+  text-align: left;
+  font-size: 1.5rem;
+  background-color: rgba(183, 237, 243, 0.101); }
+
+.cardtext2 {
+  text-align: left;
+  font-size: 1.5rem;
+  background-color: rgba(5, 183, 214, 0.101); }
+
+.cardtext3 {
+  text-align: left;
+  font-size: 1.5rem;
+  background-color: rgba(2, 172, 172, 0.101); }
+
+.cardinfo1, .cardinfo2, .cardinfo3, .cardinfo4, .cardinfo5, .cardinfo6 {
+  text-align: justify;
+  font-size: 1.5rem; }

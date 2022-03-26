@@ -1,0 +1,53 @@
+@import "./variables";
+@import "./map";
+
+
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+.text-justify {
+    text-align: justify;
+}
+
+.text-center {
+    text-align: center;
+}
+.nav-link {
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+.titulo_index{
+    font-size: 2rem;
+    color: $blanco;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+}
+.titulo_index2 {
+    font-size: 1.7rem;
+}
+.titulo_cardinfo1 {
+    
+    color: map-get($map: $titulos, $key: 'titulo_cardinfo1');
+}
+
+.titulo_cardinfo2 {
+    
+    color: map-get($map: $titulos, $key: 'titulo_cardinfo2');
+}
+
+.titulo_cardinfo3 {
+    
+    color: map-get($map: $titulos, $key: 'titulo_cardinfo3');
+}
+
+.titulo_cardinfo4 {
+
+    color: map-get($map: $titulos, $key: 'titulo_cardinfo4');
+}
+.titulo_cardinfo5 {
+    
+    color: map-get($map: $titulos, $key: 'titulo_cardinfo5');
+}
+
+
+

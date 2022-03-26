@@ -1,0 +1,13 @@
+#animacion {
+   animation-name: un_efecto;
+   animation-iteration-count:initial;
+   animation-timing-function: ease-in;
+   animation-duration: 1s;
+   animation-delay: 1s;
+
+}
+@keyframes un_efecto 
+{
+    0% { width: 80px; }
+    0.1s{ width: 50px; }
+}

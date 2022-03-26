@@ -1,0 +1,19 @@
+.cardinfo1 {
+    text-align: justify;
+    font-size: 1.5rem;
+}
+.cardinfo2 {
+    @extend .cardinfo1;
+}
+.cardinfo3 {
+    @extend .cardinfo1;
+}
+.cardinfo4 {
+    @extend .cardinfo1;
+}
+.cardinfo5 {
+    @extend .cardinfo1;
+}
+.cardinfo6 {
+    @extend .cardinfo1;
+}

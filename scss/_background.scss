@@ -1,0 +1,31 @@
+@import "./variables";
+
+.top-header { 
+    background-color: $gris;
+}
+
+.nav__personalizada {
+    background-color: $blanco;
+}
+#background1 {
+    background-color: $negro_trans;
+    color:$blanco;   
+}
+#background2 {
+    background-color: $gris;
+    color: $blanco;
+}
+#background3 {
+    background-color: #ffffff;
+    color: $gris;
+}
+
+#cardindex {
+   text-align: center;
+   height: 37rem;
+}
+
+#cardindex2 {
+    text-align: center;
+    height: 10rem;
+ }
